@@ -1,0 +1,14 @@
+{
+  "name": "@bpinternal/templ8",
+  "private": true,
+  "main": "./src/index.ts",
+  "scripts": {
+    "check:type": "tsc --noEmit",
+    "test": "pnpm test:unit",
+    "test:unit": "vitest --run"
+  },
+  "dependencies": {
+    "@bpinternal/verel": "^0.0.9",
+    "handlebars": "^4.7.8"
+  }
+}
