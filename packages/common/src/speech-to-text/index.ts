@@ -1,4 +1,4 @@
-import z from '../../zui'
+import { z } from '@botpress/sdk'
 
 export const OpenAITranscribeAudioOutputSchema = z.object({
   language: z.string().describe('Detected language of the audio'),
